@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    height: 100vh;
+}
+main{
+    margin:auto;
+}
+    div{
+        position: fixed;
+        width: 120px;
+        height: 120px;
+        background-color: red;
+    }
+    main :nth-child(1){
+        border-radius: 50%;
+        transform: rotate(45deg);
+        transform: translate(45px,-45px);
+    }
+    main :nth-child(2){
+        border-radius: 50%;
+        transform: rotate(45deg);
+        transform: translate(-45px,-45px);
+    }
+    main :nth-child(3){
+        transform: rotate(45deg);
+    }
+main:hover{
+    transform: scale(1.2);
+    transition: all .8s ease;
+}
