@@ -3,7 +3,8 @@ body{
     height: 100vh;
 }
 main{
-    margin:auto;
+    margin-top: 40vh;
+    margin-left: 28vw;
     animation: redHover 1s infinite;
 }
     div{
